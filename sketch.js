@@ -95,14 +95,14 @@ function draw() {
     if(obstaclesGroup.isTouching(trex)){
         gameState = END;
     }
-    if(score>100){
+    if(score>1000){
      
       gameState=END;
       
     }
   }
   else if (gameState === END) {
-    if(score>100){
+    if(score>1000){
      
       
       textSize(20);
